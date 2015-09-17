@@ -6,7 +6,7 @@ Apix Log was written by Franck Cassedanne (@frqnck). This extension is by Jonath
 
 ##Installation
 
-You can install Pushy using [composer](http://getcomposer.org):
+You can install the Pushover logger using [composer](http://getcomposer.org):
 
 ```json
 {

@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": ">=5.3",
-    "apix/log": "dev-1.2.0-beta",
+    "apix/log": "^1.2",
     "sqmk/pushy": "^1.4"
   },
   "require-dev": {

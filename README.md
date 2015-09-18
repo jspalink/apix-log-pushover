@@ -6,7 +6,7 @@ Apix Log was written by Franck Cassedanne (@frqnck). This extension is by Jonath
 
 ##Installation
 
-You can install Pushy using [composer](http://getcomposer.org):
+You can install the Pushover logger using [composer](http://getcomposer.org):
 
 ```json
 {
@@ -25,7 +25,7 @@ The new Log instance will be used for all subsequent messages sent through to Pu
 
 By default, the logger will send a push notification for each log message received.
 Especially given Pushover's [monthly limitations](https://pushover.net/api#limits) and
-["Being Friendly"](https://pushover.net/api#friendly) clases, I recommend calling
+["Being Friendly"](https://pushover.net/api#friendly) clauses, I recommend calling
 `$logger->setDeferred(true)` to aggregate log messages and send them in one message
 when the destructor is called.
 
